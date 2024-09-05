@@ -1,0 +1,832 @@
+
+ /* first section start... */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: roboto,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+} 
+ #ONE{
+   position: relative;
+   left: 50rem;
+   top: 2rem;
+   font-weight: 600;
+   font-size: 30px;
+   color: black;
+
+}
+
+ /* first section start... */
+.first{
+    height:600px;
+    width: 60%;
+    background-image: url(../photo/first.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5rem;
+    left: 20rem;
+    
+
+
+
+}
+.text1{
+    display: flex;
+    position:absolute;
+    
+}
+.left1{
+position: relative;
+left: 2rem;
+top: 2rem;
+  
+color: aliceblue;
+}
+.left1 h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.left1 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#text1{
+    width: 35%;
+    color:#F9F29B ;
+   
+    font-size: 80px;
+    font-weight: 700;
+}
+.left1 p{
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.left1 p a{
+color: #F9F29B;
+text-decoration: none;
+}
+
+
+
+.right1{
+    font-size: 60px;
+    font-weight: 400;
+    color: aliceblue; 
+    padding-top: 25rem;
+    padding-right: 2rem;
+}
+
+ /* first section end... */
+
+
+
+ /* second section start. */
+ .second{
+    height: 500px;
+    width: 100%;
+    color:#FFFFFF;
+ }
+ .parents2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20rem;
+ }
+ .item2 h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    position:relative;
+    top: 2rem;
+    
+ }
+
+ .item2{
+    border: 1px solid gray;
+    border-radius: 5PX;
+    height: 200px;
+    width: 30%;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    left: 35rem;
+    bottom: 23rem;
+   
+ }
+
+ .button-one{
+    border-radius: 5px;
+    height: 45px;
+    width: 10rem;
+    border: none;
+    background-color: rgb(244,203,8);
+    position: relative;
+    top: 3rem;
+   
+}
+.button-one:hover{
+    background-color: rgb(222, 186, 4);
+  
+}
+
+ /* second section end. */
+
+
+  /* third section start. */
+  .third{
+    height: 700px;
+    width: 100%;
+  
+ 
+  }
+  .hero1{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  #third{
+    height:350px;
+    width: 70%;
+  }
+  .hero2{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 9rem;
+    
+  }
+  .child4 p a{
+    color: yellow;
+    text-decoration:none ;
+  }
+
+  /* third section end.  */
+
+
+  /* four section start */
+  .four{
+    height: 300px;
+    width: 100%;
+    background-color: #F1E00E;
+    position: relative;
+    top: 15rem;
+  }
+  .four h1{
+    /* width: 45%; */
+    font-size: 48px;
+    font-weight:300;
+    position: relative;
+    top: 5rem;
+    padding-left: 35rem;
+  }
+  #four{
+    padding-left: 48rem;
+  }
+
+
+
+  /* four section end */
+
+
+
+  /* five section start */
+  .five{
+    height: 900px;
+    width: 100%;
+   
+  }
+  .parents5{
+    display: flex;
+  }
+
+  /* left5 section start */
+  .left5{
+    height:900px ;
+    width:100% ;
+    position: relative;
+    top: 20rem;
+    left: 18rem;
+    
+ 
+   
+  }
+.img11 img{
+  height:500px ;
+  width:50% ;
+ 
+}
+  .text5{
+    border: 1px solid gray;
+    border-radius: 5PX;
+    height: 200px;
+    width: 25%;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    bottom:22rem ;
+    left: 9rem;
+  }
+
+  .text5 h1{
+    position: relative;
+    top: 3rem;
+  }
+  .text5 button{
+    position: relative;
+    top: 4rem;
+    right: 1rem;
+  }
+
+  .img-futter{
+    display: flex;
+    height:900px ;
+    width:50% ;
+    position: relative;
+    left: 3rem;
+  }
+  .img12{
+    text-align: center;
+    position: relative;
+    bottom:4rem;
+    right: 3rem;
+  }
+  .img12 img{
+    height:250px ;
+    
+    width: 100%;
+    
+  }
+  .img12 h2{
+    position: relative;
+    top: 1rem;
+  }
+
+  .img12 p{
+    position: relative;
+    top: 2rem;
+  }
+  .img13{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+  
+    
+  }
+  .img13 img{
+    height:250px ;
+    width: 80%;
+    position: relative;
+    right: 2rem;
+    
+  }
+  .img13 h2{
+    position: relative;
+    top: 1rem;
+  }
+
+  .img13 p{
+    position: relative;
+    top: 2rem;
+    
+  }
+  .img13 a{
+    color: #F1E00E;
+  }
+
+
+  /* left5 section end */
+
+
+
+/* right5 section start */
+
+.top5{
+  display: flex;
+  height:900px ;
+  width:100% ;
+  position: relative;
+  right: 7rem;
+ 
+}
+.img14{
+  text-align: center;
+  position: relative;
+  top:20rem;
+}
+.img14 img{
+  height:250px ;
+  
+  width: 100%;
+  
+}
+.img14 h2{
+  position: relative;
+  top: 1rem;
+}
+
+.img14 p{
+  position: relative;
+  top: 2rem;
+}
+.img15{
+  width: 100%;
+  text-align: center;
+  position: relative;
+top: 20rem;
+
+  
+}
+.img15 img{
+  height:250px ;
+  width: 70%;
+  
+}
+.img15 h2{
+  position: relative;
+  top: 1rem;
+}
+
+.img15 p{
+  position: relative;
+  top: 2rem;
+  
+}
+
+
+
+.img16 img{
+  height:580px ;
+  width:90% ;
+  position: relative;
+ bottom: 12rem;
+ right: 9rem;
+}
+  .text5-sub{
+    border: 1px solid gray;
+    border-radius: 5PX;
+    height: 200px;
+    width: 50%;
+    background-color: #FFFFFF;
+   text-align: center;
+    position: relative;
+    bottom:37rem ;
+    right:4rem;
+  }
+
+  .text5-sub h1{
+    position: relative;
+    top: 3rem;
+  }
+  .text5-sub button{
+    position: relative;
+    top: 5rem;
+    right: 1rem;
+  }
+
+
+/* right5 section end */
+
+
+
+
+  /* five section end */
+
+
+
+
+
+  /* six section start */
+
+  .six{
+    height: 600px;
+    width: 60%;
+    background-image: url(../photo/17.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30rem;
+    left:20rem;
+    
+
+
+
+}
+.text6{
+    display: flex;
+    position:absolute;
+    
+}
+.left6{
+position: relative;
+left: 2rem;
+top: 2rem;
+  
+color: aliceblue;
+}
+.left6 h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.left6 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#text6{
+    width: 35%;
+    color:#F9F29B ;
+   
+    font-size: 80px;
+    font-weight: 700;
+}
+.left6 p{
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.left6 p a{
+color: #F9F29B;
+text-decoration: none;
+}
+
+
+
+.right6{
+    font-size: 55px;
+    font-weight: 400;
+    color: aliceblue; 
+    padding-top: 25rem;
+    padding-right:2rem;
+}
+
+  /* six section end */
+
+
+
+
+  /* seven section start */
+
+
+
+   
+    .seven{
+      height: 900px;
+      width: 100%;
+     
+    }
+    .parents7{
+      display: flex;
+    }
+  
+    /* left7 section start */
+    .left7{
+      height:900px ;
+      width:100% ;
+      position: relative;
+      top: 35rem;
+      left: 15rem;
+      
+   
+     
+    }
+  .img18 img{
+    height:600px ;
+    width:45% ;
+    position: relative;
+ 
+  }
+    .text7{
+      border: 1px solid gray;
+      border-radius: 5PX;
+      height: 200px;
+      width: 30%;
+      background-color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      bottom:23rem ;
+      left: 6rem;
+    }
+  
+    .text7 h1{
+      position: relative;
+      top:2rem;
+    }
+    .text7 button{
+      position: relative;
+      top: 4rem;
+     
+    }
+  
+    .img-futter7{
+      display: flex;
+      height:900px ;
+      width:100% ;
+    }
+    .img19{
+      text-align: center;
+      position: relative;
+      bottom:10rem;
+    }
+    .img19 img{
+      height:300px ;
+      width:20rem;
+      
+    }
+    
+    .img20{
+      width: 100%;
+      text-align: center;
+      position: relative;
+      right: 20rem;
+      bottom: 10rem;
+    
+      
+    }
+    .img20 img{
+      height:300px ;
+      width: 25%;
+      
+    }
+    
+  
+  
+    /* left7 section end */
+
+
+/* right7 section start */
+
+.top7{
+  display: flex;
+  height:900px ;
+  width:100% ;
+  position: relative;
+right: 25rem;
+ 
+}
+.hero7{
+  height: 400px;
+  width: 100%;
+}
+.hero7 h1{
+ 
+  text-align: center;
+  position: relative;
+  top:43rem;
+}
+
+
+
+.img21{
+  width: 100%;
+  text-align: center;
+  position: relative;
+ top: 35rem;
+
+  
+}
+.img21 img{
+  height:300px ;
+  width:30rem;
+  
+}
+
+
+
+
+
+.img22 img{
+  height:600px ;
+  width:55rem ;
+  position: relative;
+ 
+ right: 22rem;
+}
+  .text7-sub{
+    border: 1px solid gray;
+    border-radius: 5PX;
+    height: 200px;
+    width: 60%;
+    background-color: #FFFFFF;
+   text-align: center;
+    position: relative;
+    bottom:21rem ;
+  right: 13rem;
+  }
+
+  .text7-sub h1{
+    position: relative;
+    top: 3rem;
+  }
+  .text7-sub button{
+    position: relative;
+    top: 5rem;
+    right: 1rem;
+  }
+
+
+/* right7 section end */
+
+
+
+
+
+  /* seven section end */
+
+
+
+
+
+  /* eight section start */
+  .eight{
+    height: 300px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-top:42rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #eight{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+  }
+  #satting{
+    font-weight: 600;
+    font-size: 45px;
+    color: black;
+    position: relative;
+    left: 4rem;
+  }
+  #location {
+    position:relative;
+    top: 2rem;
+
+  }
+  #phon{
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+
+.location{
+  height: 300px;
+  position: relative;
+  top: 5rem;
+}
+.page{
+  height: 300px;
+  position: relative;
+  top: 5rem;
+}
+.phon{
+  height: 300px;
+  position: relative;
+  top: 5rem;
+}
+.satting{
+  height: 300px;
+  position: relative;
+  top: 5rem;
+}
+
+
+
+  /* eight section end */
+
+
+
+  /* nine section start */
+.nine{
+  background-image: url(../photo/23.jpg);
+  height: 600px;
+  width: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5rem;
+  left:25rem;
+  text-align: center;
+}
+
+.nine h1{
+  position: relative;
+  top: 8rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.nine p{
+  position: relative;
+  top: 18rem;
+  color: #FFFFFF;
+}
+.nine p a{
+  color: #F9F29B;
+}
+.write{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 12rem;
+ 
+
+}
+.write1 input{
+  height: 40px;
+  width:340px;
+  border-radius: 2px;
+}
+#singing{
+  height: 40px;
+  width:100px;
+  border-radius: 2px;
+
+  background-color:#F9F29B;
+  position: relative;
+  left: 10px;
+}
+
+
+
+
+
+
+  /* nine section end */
+
+
+
+
+
+
+  /* TEN section start */
+  .ten{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+   position: relative;
+   top: 10rem;
+  }
+
+  .parents10{
+    height: 200px;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .parents10 p{
+    position: relative;
+    top: 1rem;
+  }
+  .child10 a{
+    color: gray;
+    font-size: 35px;
+  }
+  .child10{
+    position: relative;
+    top: 4rem;
+   
+  }
+  .child11{
+    position: relative;
+    top: 5rem;
+   
+  }
+  .child12{
+    position: relative;
+    top: 5rem;
+   
+  }
+  .child13{
+    position: relative;
+    top: 5rem;
+   
+  }
+  
+  
+.hero10 p{
+color: #FFFFFF;
+position: relative;
+top: 2rem;
+padding-left: 48rem;
+}
+
+
+/* 
+  TEN section end */
